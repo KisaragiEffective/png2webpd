@@ -102,7 +102,7 @@ fn main() -> ExitCode {
             }
         }
     });
-    drop(console_channel_sender);
+    
     blocks_until_all();
 
     ExitCode::SUCCESS
